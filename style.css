@@ -31,3 +31,20 @@ p {
 .card:hover {
     transform: scale(1.05);
 }
+.story-hero {
+    background-image: url('myphoto.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story-text {
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+}
