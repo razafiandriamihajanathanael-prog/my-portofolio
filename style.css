@@ -32,7 +32,7 @@ p {
     transform: scale(1.05);
 }
 .story-hero {
-    background-image: url('myphoto.jpg');
+    background-image: url('myphoto.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
