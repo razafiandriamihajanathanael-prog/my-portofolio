@@ -1,17 +1,20 @@
 body {
-    backgrounf: #0f172a;
+    background: #0f172a;
     color: white;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 50px;
 }
+
 h1 {
     font-size: 3rem;
 }
+
 p {
     font-size: 1.2rem;
 }
+
 .card {
     background: #1e293b;
     border-radius: 15px;
@@ -20,6 +23,7 @@ p {
     width: 300px;
     transition: 0.3s;
 }
+
 .card:hover {
     transform: scale(1.05);
 }
