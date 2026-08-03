@@ -399,10 +399,66 @@ a {
     font-size: 1.35rem;
   }
 }
-.about-section {
-  padding: 130px 7%;
-  background: var(--ivory);
-  border-top: 1px solid rgba(36, 36, 36, 0.12);
+.about-section{
+    padding:140px 8%;
+    background:#F8F5EF;
+}
+
+.section-number{
+    color:#8A6B42;
+    letter-spacing:4px;
+    font-size:13px;
+    margin-bottom:25px;
+}
+
+.about-heading{
+    font-family:"Cormorant Garamond",serif;
+    font-size:72px;
+    line-height:1;
+    max-width:700px;
+    margin-bottom:70px;
+}
+
+.about-content{
+    display:grid;
+    grid-template-columns:420px 1fr;
+    gap:80px;
+    align-items:center;
+}
+
+.about-photo img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
+}
+
+.about-description{
+    font-size:18px;
+    line-height:1.9;
+}
+
+.lead{
+    font-size:28px;
+    font-family:"Cormorant Garamond",serif;
+    margin-bottom:30px;
+}
+
+.stats{
+    display:flex;
+    gap:60px;
+    margin-top:60px;
+}
+
+.stat h3{
+    font-size:60px;
+    font-family:"Cormorant Garamond",serif;
+}
+
+.stat p{
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-size:12px;
+    color:#666;
 }
 
 .section-label {
