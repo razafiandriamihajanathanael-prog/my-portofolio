@@ -545,3 +545,140 @@ a {
     grid-template-columns: 1fr;
   }
 }
+.journey-section {
+  padding: 140px 8%;
+  background: #efe7da;
+  border-top: 1px solid rgba(36, 36, 36, 0.1);
+}
+
+.journey-heading {
+  max-width: 900px;
+  margin-bottom: 80px;
+}
+
+.journey-heading h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(3rem, 6vw, 6.2rem);
+  line-height: 0.98;
+  font-weight: 600;
+}
+
+.journey-heading > p {
+  max-width: 680px;
+  margin-top: 28px;
+  color: rgba(36, 36, 36, 0.7);
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.journey-timeline {
+  position: relative;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.journey-timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 28px;
+  width: 1px;
+  background: rgba(138, 107, 66, 0.45);
+}
+
+.journey-item {
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 42px;
+}
+
+.journey-dot {
+  position: absolute;
+  left: 18px;
+  top: 35px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: var(--bronze);
+  border: 5px solid #efe7da;
+  box-shadow: 0 0 0 1px rgba(138, 107, 66, 0.45);
+  z-index: 2;
+}
+
+.journey-card {
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 18px;
+  box-shadow: 0 18px 40px rgba(36, 36, 36, 0.07);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.journey-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 50px rgba(36, 36, 36, 0.11);
+}
+
+.journey-year {
+  margin-bottom: 10px;
+  color: var(--bronze);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.journey-card h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.05;
+  margin-bottom: 18px;
+}
+
+.journey-card > p:not(.journey-year) {
+  max-width: 760px;
+  color: rgba(36, 36, 36, 0.73);
+  line-height: 1.8;
+}
+
+.journey-card ul {
+  margin-top: 22px;
+  padding-left: 20px;
+  color: rgba(36, 36, 36, 0.72);
+}
+
+.journey-card li {
+  margin-bottom: 8px;
+}
+
+.future-item .journey-card {
+  background: var(--charcoal);
+  color: var(--white);
+}
+
+.future-item .journey-card > p:not(.journey-year) {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+@media (max-width: 650px) {
+  .journey-section {
+    padding: 95px 5%;
+  }
+
+  .journey-timeline::before {
+    left: 14px;
+  }
+
+  .journey-item {
+    padding-left: 48px;
+  }
+
+  .journey-dot {
+    left: 4px;
+  }
+
+  .journey-card {
+    padding: 28px 24px;
+  }
+}
