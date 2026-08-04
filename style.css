@@ -1468,3 +1468,20 @@ grid-row:auto;
     transition: none;
   }
 }
+.private-project-label{
+
+display:inline-block;
+
+padding:12px 18px;
+
+border-radius:30px;
+
+background:#EFE7DA;
+
+color:#242424;
+
+font-size:13px;
+
+font-weight:600;
+
+}
